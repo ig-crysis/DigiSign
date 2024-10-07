@@ -1,0 +1,54 @@
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.top,.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.head{
+    height: 150px;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+input,select,button{
+    width: 80%;
+}
+.cp{
+    width: 80%;
+    margin: 10px;
+}
+
+.bottom>button{
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.canvas{
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.clearBtn{
+    background-color: red;
+    color: white;
+}
+.saveBtn{
+    background-color: green;
+    color: white;
+}
+.retrieveBtn{
+    background-color: yellow;
+    color: black;
+}

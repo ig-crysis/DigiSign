@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiSign</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="head">
+        <h1>DigiSign</h1>
+    </div>
+    <div class="main">
+        <div id="top" class="top">
+            <div id="colorPic" class="cp">
+                <h4>Select Text Color</h4>
+                <input class="form-control" type="color" id="textColor">
+            </div>
+            <div id="bgPick" class="cp">
+                <h4>Select Background</h4>
+                <input class="form-control" type="color" id="backColor">
+            </div>
+            <div id="colorPic" class="cp">
+                <h4>Select Size</h4>
+                <select id="fontSize">
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="20">20px</option>
+                    <option value="30">30px</option>
+                    <option value="40">40px</option>
+                    <option value="50">50px</option>
+                </select>
+            </div>
+        </div>
+        <canvas id="myCanvas" class="canvas" width="800" height="450"></canvas>
+        <div class="bottom">
+            <button type="button" id="clearBtn" class="clearBtn">Clear</button>
+            <button type="button" id="saveBtn" class="saveBtn">Save & Download</button>
+            <button type="button" id="retBtn" class="retrieveBtn">Retrieve Saved</button>
+
+        </div>
+    </div>
+</body>
+</html>
